@@ -5,12 +5,12 @@ Otp genration and authentication
 Secure OTP Generation and Authentication
 
 
-database user mysql
+database : mysql
 
 
 created  APIs
 
-1-> POST - /api/user/    for creating user with validation
+1-> POST - /api/user/    for creating user 
     @Reuestbody  {
                       "name":"junaid",
                       "password":"12345",
@@ -29,7 +29,7 @@ created  APIs
                  }
 
 
-3-> GET - /api/user/verify/{userid}  for verifiying generated OTP with same credential and opt will expire after 5 minutes
+3-> GET - /api/user/verify/{userid}  for verifiying generated OTP with same credential , otp will expire after 5 minutes
     @PathVariable  user id
     @RequestMapping {
                         "otp":"367456"
