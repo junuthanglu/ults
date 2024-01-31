@@ -3,7 +3,7 @@ Otp genration and authentication
 
 
 Secure OTP Generation and Authentication
-***********************************data
+
 
 database user mysql
 
